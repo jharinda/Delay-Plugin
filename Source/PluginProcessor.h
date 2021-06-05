@@ -56,7 +56,8 @@ public:
 private:
     int mWritePointer{ 0 };
 
-    juce::AudioBuffer<float> mDelayedBuffer;
+    juce::AudioBuffer<float> mDelayBuffer;
+
 
 
     //==============================================================================
